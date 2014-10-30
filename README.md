@@ -9,6 +9,7 @@ Steps for setting up the basic app
 1) it needs to utilize AppConnect & Bootstrap
 
  http://developer.constantcontact.com/
+ 
  https://github.com/constantcontact/ruby-sdk
 
 2)We’ll have to register the app with the Mashery 
