@@ -12,6 +12,13 @@ Steps for setting up the basic app
 
 2)We’ll have to register the app with the Mashery 
  https://constantcontact.mashery.com/io-docs
+ 
+Key: aghdbncz34qnckrtu2ajqsq4
+Applicationbootstrap_kiosk_app Key: aghdbncz34qnckrtu2ajqsq4 Secret: mEmW5yjcNc4wJV7mrjqcUEx4 Status: waiting Created: 1 second ago
+Key Rate Limits
+20	Calls per second
+250,000	Calls per day
+
 
 3) Get the basic app framework uploaded to this repo ( including API key ) 
 
