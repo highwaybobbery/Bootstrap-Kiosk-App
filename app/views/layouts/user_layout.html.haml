@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title BootstrapKioskApp
+    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+    = csrf_meta_tags
+  %body
+    %header.shell.clearfix
+      = button_to 'log out', destroy_user_session_path, method: :delete
+    %section.shell
+      .content
+        = yield
+

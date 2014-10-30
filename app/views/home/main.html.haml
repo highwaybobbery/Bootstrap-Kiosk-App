@@ -1,0 +1,7 @@
+%header.shell.clearfix
+  =image_tag "logo_ctct.png"
+%section.shell#welcome
+  .content
+    %h1.center Welcome
+    = link_to 'Sign in', user_omniauth_authorize_path(:constantcontact),{ id: 'sign-in', class: 'btn btn-primary'}
+

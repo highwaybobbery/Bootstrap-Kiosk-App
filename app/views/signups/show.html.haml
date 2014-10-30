@@ -1,0 +1,20 @@
+%header.shell.clearfix
+%section.shell#welcome
+  .content
+    %h1 Welcome
+    %p Thanks for your interest in our mailing list, sign up here:
+    #signups
+      = form_tag '/signup' do
+        = hidden_field_tag 'keyword', @keyword
+        .form-group
+          = label_tag 'Email Address'
+          = text_field_tag 'email'
+        .form-group
+          = label_tag 'First Name'
+          = text_field_tag 'first_name'
+        .form-group
+          = label_tag 'Last Name'
+          = text_field_tag 'last_name'
+        .form-group.submit
+          = submit_tag 'go for it'
+

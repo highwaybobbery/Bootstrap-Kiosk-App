@@ -1,0 +1,5 @@
+%h1 success!
+%p Your form has been saved, and you can get to it here:
+= link_to  "#{params[:keyword]} Form", "/signup/#{params[:keyword]}", { class: 'btn btn-primary'}
+
+
