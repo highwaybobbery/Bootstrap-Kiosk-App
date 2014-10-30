@@ -13,6 +13,7 @@ Steps for setting up the basic app
  https://github.com/constantcontact/ruby-sdk
 
 2)We’ll have to register the app with the Mashery 
+
 https://constantcontact.mashery.com/io-docs
  
 Key: aghdbncz34qnckrtu2ajqsq4
