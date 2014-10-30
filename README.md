@@ -7,6 +7,7 @@ a proof of concept for a kiosk app to add users to a mailing list or check them 
 Steps for setting up the basic app 
 
 1) it needs to utilize AppConnect & Bootstrap
+
  http://developer.constantcontact.com/
  https://github.com/constantcontact/ruby-sdk
 
