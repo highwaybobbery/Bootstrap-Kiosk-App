@@ -14,7 +14,13 @@ Steps for setting up the basic app
  https://constantcontact.mashery.com/io-docs
  
 Key: aghdbncz34qnckrtu2ajqsq4
-Applicationbootstrap_kiosk_app Key: aghdbncz34qnckrtu2ajqsq4 Secret: mEmW5yjcNc4wJV7mrjqcUEx4 Status: waiting Created: 1 second ago
+
+Application
+bootstrap_kiosk_app
+Key: aghdbncz34qnckrtu2ajqsq4 
+Secret: mEmW5yjcNc4wJV7mrjqcUEx4 
+Status: waiting 
+
 Key Rate Limits
 20	Calls per second
 250,000	Calls per day
