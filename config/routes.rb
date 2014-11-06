@@ -4,4 +4,5 @@ BootstrapKioskApp::Application.routes.draw do
   }
 
   root to: 'home#main'
+  resource :setup
 end
