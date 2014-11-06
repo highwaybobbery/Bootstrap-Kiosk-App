@@ -23,7 +23,7 @@ class User < ActiveRecord::Base
     user = find_by(email: email, provider: nil)
 
     if user
-      account_properties account, auth_hash, email
+      user_properties account, auth_hash, email
       user
     else
       user = where(provider: auth_hash.provider, uid: auth_hash.uid).first_or_create
