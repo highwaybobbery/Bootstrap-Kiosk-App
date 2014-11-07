@@ -1,0 +1,12 @@
+%h1 test
+= @signup.errors.full_messages if @signup.errors.messages.present?
+= form_for @signup, url: setup_path do |f|
+  - @lists.each do |l|
+    = f.radio_button :list_id, l.id
+    = f.label :list_id, l.name
+    %br
+  = f.label :keyword, 'url keyword'
+  = f.text_field :keyword
+  %br
+  = f.submit
+
