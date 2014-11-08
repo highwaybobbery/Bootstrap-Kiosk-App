@@ -1,5 +1,5 @@
 class SetupsController < ApplicationController
-  before_filter :authenticate_user!
+  before_filter :authenticate_user!, only: [:new, :create]
   layout 'user_layout'
 
   def new
@@ -10,7 +10,8 @@ class SetupsController < ApplicationController
   def create
     @signup = SignupForm.new setup_params
     @signup.save!
-    redirect_to setup_path, notice: 'Saved!'
+    reset_session
+    redirect_to setup_path(keyword: @signup.keyword), notice: 'Saved!'
   rescue => e
     puts e.inspect
     @lists = $cc.get_lists(current_user.ctct_token)
