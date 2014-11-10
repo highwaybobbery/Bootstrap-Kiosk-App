@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141031014924) do
+ActiveRecord::Schema.define(version: 20141107031441) do
+
+  create_table "signup_forms", force: true do |t|
+    t.integer  "account_id"
+    t.integer  "list_id"
+    t.string   "keyword"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "first_name"

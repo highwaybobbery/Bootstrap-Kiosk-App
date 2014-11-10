@@ -5,4 +5,6 @@ BootstrapKioskApp::Application.routes.draw do
 
   root to: 'home#main'
   resource :setup
+  get 'signup/:keyword' => 'signups#show'
+  post 'signup' => 'signups#create'
 end
