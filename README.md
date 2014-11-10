@@ -6,31 +6,20 @@ a proof of concept for a kiosk app to add users to a mailing list or check them 
 ==========
 Steps for setting up the basic app 
 
-1) it needs to utilize AppConnect & Bootstrap
-
- http://developer.constantcontact.com/
- 
- https://github.com/constantcontact/ruby-sdk
-
-2)We’ll have to register the app with the Mashery 
+1) it will utilize AppConnect  - Constant Contact's Developer API
+Developers will need to setup a Mashery Account to get an API key :
 
 https://constantcontact.mashery.com/io-docs
- 
-Key: aghdbncz34qnckrtu2ajqsq4
 
-Application
-bootstrap_kiosk_app
-Key: aghdbncz34qnckrtu2ajqsq4 
-Secret: mEmW5yjcNc4wJV7mrjqcUEx4 
-Status: waiting 
+the file developerFlow.doc in this repository contains instructions for signing up for both Mashery and a Constant Contact trail account, including the step for linking them.
 
-Key Rate Limits
-20	Calls per second
-250,000	Calls per day
+3) This repository contains the basic framework for the Application, including the login.
 
+~ Get List ?
+~ Add to List ? 
+~ Get the basic app framework uploaded to this repo ( including API key ) 
 
-3) Get the basic app framework uploaded to this repo ( including API key ) 
-
+Goals of the Exercise : 
 
 5)replicate the sign-up form 
 
