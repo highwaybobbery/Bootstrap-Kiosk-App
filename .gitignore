@@ -16,4 +16,4 @@
 /tmp
 
 # Ignore token
-/config/initializers/secret_token.rb
+/config/initializers/_secret_tokens.rb
