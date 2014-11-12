@@ -1,27 +1,20 @@
-%h1 Welcome
-%p thanks for your interest in our mailing list, sign up here:
-= form_tag '/signup' do
-  = hidden_field_tag 'keyword', @keyword
-  .form-group
-    .row
-      .col-md-2
-        = label_tag 'Email Address'
-      .col-md-2
-        = text_field_tag 'email'
-  .form-group
-    .row
-      .col-md-2
-        = label_tag 'First Name'
-      .col-md-2
-        = text_field_tag 'first_name'
-  .form-group
-    .row
-      .col-md-2
-        = label_tag 'Last Name'
-      .col-md-2
-        = text_field_tag 'last_name'
-  .form-group
-    .row
-      .col-md-4
-        = submit_tag 'go for it'
+%header.shell.clearfix
+%section.shell#welcome
+  .content
+    %h1 Welcome
+    %p Thanks for your interest in our mailing list, sign up here:
+    #signups
+      = form_tag '/signup' do
+        = hidden_field_tag 'keyword', @keyword
+        .form-group
+          = label_tag 'Email Address'
+          = text_field_tag 'email'
+        .form-group
+          = label_tag 'First Name'
+          = text_field_tag 'first_name'
+        .form-group
+          = label_tag 'Last Name'
+          = text_field_tag 'last_name'
+        .form-group.submit
+          = submit_tag 'go for it'
 

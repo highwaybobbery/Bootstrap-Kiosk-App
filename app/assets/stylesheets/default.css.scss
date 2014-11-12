@@ -1,0 +1,150 @@
+body{
+  background-color: #e3f6fc!important;
+}
+header{
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-bottom-width: 2px;
+  background-color: #fff;
+  padding: 15px;
+  border: 0 solid #d1d3d4;
+  box-shadow: 0 2px 5px #d1d3d4;
+  &.shell{
+    border-bottom: 1px solid #D1D3D4;
+    text-align: center;
+  }
+  .button_to{
+    float:right;
+    input{
+      width:auto;
+    }
+  }
+  img{
+    height: 31px;
+    width: 211px;
+  }
+}
+.clear{
+  clear:both;
+}
+#lists{
+  list-style: none;
+  padding: 0;
+  border-bottom: solid 1px #ccc;
+  li{
+    padding:6px 4px;
+    display: block;
+    width:100%;
+    &:nth-child(odd){
+      background-color: #fbc247;
+    }
+    label{
+      margin:0;
+    }
+  }
+}
+.shell{
+  min-width: 302px;
+}
+section.shell{
+  border-top: 2px solid #d1d3d4;
+  background-color: #E3F6FC;
+  padding: 30px 10px;
+  .content{
+    max-width: 500px;
+    width:100%;
+    background-color: #fff;
+    border: 2px solid #d1d3d4;
+    border-radius: 3px;
+    padding: 20px 50px;
+    margin:0 auto;
+    h1{
+      margin:0 0 10px 0;
+    }
+  }
+}
+.btn-primary,
+.button_to input[type=submit],
+.submit input[type=submit]{
+  font:normal 20px "myriad-pro", helvetica, sans-serif;
+  font-family: "myriad-pro", helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background: -moz-linear-gradient(
+                  top,
+                  #f6b128 0%,
+                  #f4a91f);
+  background: -webkit-gradient(
+                  linear, left top, left bottom,
+                  from(#f6b128),
+                  to(#f4a91f));
+  background-image: -ms-linear-gradient(top, #f6b128 0%, #f4a91f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6b128', endColorstr='#f4a91f',GradientType=0 ); /* IE6-9 */
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 2px solid #dd8f29;
+  -moz-box-shadow:
+  0px 1px 3px rgba(42,48,56,0.5),
+  inset 0px 0px 1px rgba(255,255,255,0.3);
+  -webkit-box-shadow:
+  0px 1px 3px rgba(42,48,56,0.5),
+  inset 0px 0px 1px rgba(255,255,255,0.3);
+  box-shadow:
+  0px 1px 3px rgba(42,48,56,0.5),
+  inset 0px 0px 1px rgba(255,255,255,0.3);
+  text-shadow:
+  0px -1px 0px rgba(000,000,000,0.4),
+  0px 1px 0px rgba(255,255,255,0.3);
+  &:hover{
+    border-color:2px solid #dd8f29!important;
+    background: -moz-linear-gradient(
+                    top,
+                    #fbc247 0%,
+                    #fbc047);
+    background: -webkit-gradient(
+                    linear, left top, left bottom,
+                    from(#fbc247),
+                    to(#fbc047));
+    background-image: -ms-linear-gradient(top, #FBC247 0%, #FBC047 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbc247', endColorstr='#fbc047',GradientType=0 ); /* IE6-9 */
+  }
+}
+.container{
+//  background-color: #BBBBBB;
+}
+.center{
+  text-align: center;
+}
+#sign-in{
+  display: block;
+  margin:auto;
+  width: 50%;
+}
+#signups{
+}
+#welcome{
+}
+.form-group.submit{
+  margin-bottom: 0;
+}
+input, button, select, textarea{
+  width:100%;
+  padding:6px 8px;
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 2px #333;
+  margin-bottom: 10px;
+}
+input[type=radio]{
+  width:auto;
+  box-shadow: none;
+}
+input[type=submit]{
+  margin-bottom: 0!important;
+}
+

@@ -5,7 +5,9 @@
     = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
     = csrf_meta_tags
   %body
-    %header
+    %header.shell.clearfix
       = button_to 'log out', destroy_user_session_path, method: :delete
-    = yield
+    %section.shell
+      .content
+        = yield
 
